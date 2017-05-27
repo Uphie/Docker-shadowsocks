@@ -12,7 +12,8 @@ $ git clone https://github.com/Uphie/Docker-shadowsocks
 ```
 或者
 ```
-$ wget https://github.com/Uphie/Docker-shadowsocks.zip
+$ wget https://github.com/Uphie/Docker-shadowsocks/archive/master.zip
+
 $ uzip Docker-shadowsocks.zip
 ```
 2. 编辑 `shadowsocks.json` 文件，添加端口和密码。
@@ -48,5 +49,21 @@ $ docker run -itd -p port1:port1 -p port2:port2 --name your_container_name .
 ```
 $ docker run -itd -p 8500:8500 -p 8501:8501 -p 8502:8502 --name my_container_name my_image_name
 ```
-4. 可以科学上网了😊
+4. 可以科学上网了 ^_^
+
+相关软件
+
+Shadowsocks Android 端
+
+Google Play: https://play.google.com/store/apps/details?id=com.github.shadowsocks
+百度云：链接: https://pan.baidu.com/s/1miOExde 密码: 5c9j
+
+Shadowsocks MacOS 端
+
+SourceForge: https://sourceforge.net/projects/shadowsocksgui/
+百度云：链接: https://pan.baidu.com/s/1qY0jGDI 密码: f1qd
+
+Shadowsocks Windows 端
+
+百度云：链接: https://pan.baidu.com/s/1nvjuQeP 密码: urur
 
