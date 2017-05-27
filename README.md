@@ -6,7 +6,16 @@
 
 使用方法：
 
-1. 编辑 `shadowsocks.json` 文件，添加端口和密码。
+1. 下载
+```
+$ git clone https://github.com/Uphie/Docker-shadowsocks
+```
+或者
+```
+$ wget https://github.com/Uphie/Docker-shadowsocks.zip
+$ uzip Docker-shadowsocks.zip
+```
+2. 编辑 `shadowsocks.json` 文件，添加端口和密码。
 配置方法详见 [shadowsocks wiki](https://github.com/shadowsocks/shadowsocks/wiki)。
 
 如多用户配置：
@@ -23,15 +32,6 @@
 }
 ```
 
-2. 下载
-```
-$ git clone https://github.com/Uphie/Docker-shadowsocks
-```
-或者
-```
-$ wget https://github.com/Uphie/Docker-shadowsocks.zip
-$ uzip Docker-shadowsocks.zip
-```
 3. 构建 docker 镜像
 ```
 $ cd Docker-shadowsocks
