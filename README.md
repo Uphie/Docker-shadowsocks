@@ -8,7 +8,7 @@
 
 1. 下载
 ```
-$ git clone https://github.com/Uphie/Docker-shadowsocks
+$ git clone https://github.com/Uphie/Docker-shadowsocks.git
 ```
 或者
 ```
